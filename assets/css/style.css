@@ -1,5 +1,5 @@
 header {
-  margin-bottom: 200px;
+  margin-bottom: 20px;
 }
 header .h-top {
   padding: 8px 0px;
@@ -131,6 +131,54 @@ header .h-bottom-color .h-bottom .companies .companies-icons .ico2 {
 }
 header .h-bottom-color .h-bottom .companies .companies-icons svg {
   margin: 0px 10px;
+}
+
+.home-all-top {
+  display: flex;
+  justify-content: space-between;
+}
+.home-all-top .home-right .slideshow-container-mini-all {
+  display: flex;
+  justify-content: space-between;
+}
+.home-all-top .home-right .slideshow-container-mini-all .mini-slider {
+  max-width: 200px;
+  height: 100px;
+}
+.home-all-top .home-left {
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 5px;
+  width: 90px;
+}
+.home-all-top .home-left ul {
+  list-style: none;
+}
+.home-all-top .home-left ul li .categorie-item .item {
+  padding: 15px;
+}
+.home-all-top .home-left ul li .categorie-item .item-top {
+  width: 44px;
+  height: 44px;
+  box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-all-top .home-left ul li .categorie-item .item-top:hover {
+  background-color: rgb(221, 255, 221);
+}
+.home-all-top .home-left ul li .categorie-item svg {
+  width: 22px !important;
+  height: 24px !important;
+}
+.home-all-top .home-left ul li .categorie-item .item-bottom {
+  padding-top: 5px;
+  color: gray;
+  font-size: 12px;
+}
+.home-all-top .home-left ul:hover {
+  cursor: pointer;
 }
 
 footer {
