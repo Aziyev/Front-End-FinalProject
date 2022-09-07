@@ -5,4 +5,12 @@
 }
 .container{
     margin: 0px 119px;
+    padding: 0px 24px;
+}
+.pbtn{
+    cursor: pointer;
+    color: #1d1d1b;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
 }

@@ -1,28 +1,211 @@
+header {
+  margin-bottom: 200px;
+}
 header .h-top {
-  display: flex;
   padding: 8px 0px;
+  display: flex;
   justify-content: space-between;
 }
-header .h-top svg {
-  width: 145px;
-  height: 45px;
-}
-header .h-top .h-right {
+header .h-top .h-top-right {
   display: flex;
+  align-items: center;
 }
-header .h-top .h-right .h-box {
-  padding: 10px 20px;
+header .h-top .h-top-right .birkartpng {
+  width: 44px;
+  height: 28px;
+  margin-right: 5px;
+}
+header .h-top .h-top-right ul {
   display: flex;
+  list-style: none;
+  display: flex;
+  align-items: center;
 }
-header .h-top .h-right .h-box i {
-  padding-left: 5px;
+header .h-top .h-top-right ul li {
+  margin: 0 13px;
 }
-header .h-top .h-right .h-box a {
+header .h-top .h-top-right ul li a {
+  font-size: 14px;
   text-decoration: none;
   color: black;
-  font-size: 14px;
 }
-header .h-top .h-right .h-box .birkart {
-  width: 44px;
-  height: 25px;
+header .h-bottom-color {
+  background-color: #383E42;
+}
+header .h-bottom-color .h-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+header .h-bottom-color .h-bottom .category {
+  display: flex;
+  padding: 24px 15px;
+  width: 90px;
+}
+header .h-bottom-color .h-bottom .category button {
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+}
+header .h-bottom-color .h-bottom .category button svg {
+  margin-left: 15px;
+}
+header .h-bottom-color .h-bottom .category:hover {
+  background-color: #272b2e;
+}
+header .h-bottom-color .h-bottom .search1 {
+  margin-top: 6px;
+  width: 700px;
+  padding: 15px;
+  margin-left: 20px;
+}
+header .h-bottom-color .h-bottom .search1 .search-box {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+}
+header .h-bottom-color .h-bottom .search1 .search-box input {
+  width: 80%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  padding: 15px;
+}
+header .h-bottom-color .h-bottom .search1 .search-box button {
+  padding: 15px;
+  margin-left: 80px;
+  color: gray;
+  background-color: white;
+  border: none;
+}
+header .h-bottom-color .h-bottom .companies {
+  display: flex;
+  padding: 15px;
+}
+header .h-bottom-color .h-bottom .companies button {
+  margin-left: 40px;
+  padding: 8px 14px;
+  margin: 7px 0px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: #383E42;
+  color: white;
+  font-size: 16px;
+}
+header .h-bottom-color .h-bottom .companies button:hover {
+  background-color: white;
+  color: #383E42;
+}
+header .h-bottom-color .h-bottom .companies .companies-icons {
+  display: flex;
+  padding: 15px;
+  margin-left: 20px;
+}
+header .h-bottom-color .h-bottom .companies .companies-icons .ico1 {
+  padding: 4px 0px;
+}
+header .h-bottom-color .h-bottom .companies .companies-icons .ico1 .drop2 {
+  padding: 10px;
+  font-size: 13px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+header .h-bottom-color .h-bottom .companies .companies-icons .ico1 .drop2 button {
+  text-align: center;
+  width: 100%;
+}
+header .h-bottom-color .h-bottom .companies .companies-icons .ico1 .drop2 .giris {
+  background-color: rgb(114, 170, 29);
+  color: white;
+}
+header .h-bottom-color .h-bottom .companies .companies-icons .ico1 .drop2 .qeydiyyat {
+  background-color: white;
+  color: rgb(114, 170, 29);
+  border: 1px solid rgb(114, 170, 29);
+}
+header .h-bottom-color .h-bottom .companies .companies-icons .ico2 {
+  padding: 4px 0px;
+}
+header .h-bottom-color .h-bottom .companies .companies-icons svg {
+  margin: 0px 10px;
+}
+
+footer {
+  background-color: #383E42;
+}
+footer .footerall {
+  padding: 20px 0px;
+  display: flex;
+}
+footer .footerall .footer-left ul {
+  list-style: none;
+}
+footer .footerall .footer-left ul li {
+  padding: 5px 0px;
+}
+footer .footerall .footer-left ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer .footerall .footer-left ul li a span {
+  font-size: 17px;
+  font-weight: 600;
+  padding: 5px 2px;
+  color: white;
+}
+footer .footerall .footer-left ul li svg {
+  width: 30px;
+  padding: 0px;
+}
+footer .footerall .footer-left ul li div .footerlogo {
+  width: 165px;
+  height: 50px;
+}
+footer .footerall .footer-left ul li div span {
+  font-size: 16px;
+  color: white;
+}
+footer .footerall .footer-right {
+  display: flex;
+}
+footer .footerall .footer-right .footer-box {
+  padding: 0px 20px;
+}
+footer .footerall .footer-right .footer-box h2 {
+  color: white;
+  font-size: 24px;
+}
+footer .footerall .footer-right .footer-box ul li {
+  padding: 4px 0px;
+  list-style: none;
+}
+footer .footerall .footer-right .footer-box ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  line-height: 24px;
+}
+footer .footerall .footer-right .footer-box ul li a:hover {
+  text-decoration: underline;
+}
+footer .footer-bottom {
+  padding-bottom: 50px;
+}
+footer .footer-bottom hr {
+  color: white;
+}
+footer .footer-bottom .fbb {
+  color: white;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-bottom .fbb h2 {
+  font-size: 16px;
+}
+footer .footer-bottom .fbb .f-bottom-icons i {
+  padding: 0px 3px;
 }/*# sourceMappingURL=style.css.map */
