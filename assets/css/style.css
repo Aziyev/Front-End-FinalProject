@@ -133,19 +133,43 @@ header .h-bottom-color .h-bottom .companies .companies-icons svg {
   margin: 0px 10px;
 }
 
+body {
+  background-color: #F2F2F2;
+}
+
 .home-all-top {
   display: flex;
-  justify-content: space-between;
 }
-.home-all-top .home-right .slideshow-container-mini-all {
+.home-all-top .home-right {
+  margin-left: 20px;
+  border-radius: 5px;
+}
+.home-all-top .home-right img {
+  border-radius: 5px;
+}
+.home-all-top .home-right .after-slideshow {
   display: flex;
   justify-content: space-between;
 }
-.home-all-top .home-right .slideshow-container-mini-all .mini-slider {
-  max-width: 200px;
-  height: 100px;
+.home-all-top .home-right .after-slideshow .slideshow-mini {
+  width: 180px;
+  height: auto;
+}
+.home-all-top .home-right .after-slideshow .btn-box {
+  border-radius: 5px;
+}
+.home-all-top .home-right .after-slideshow .btn-box i {
+  padding: 30px 15px;
+  color: #F2F2F2;
+}
+.home-all-top .home-right .after-slideshow:hover .prev {
+  background-image: linear-gradient(to right, gray, white);
+}
+.home-all-top .home-right .after-slideshow:hover .next {
+  background-image: linear-gradient(to left, gray, white);
 }
 .home-all-top .home-left {
+  background-color: white;
   border: 1px solid rgb(211, 211, 211);
   border-radius: 5px;
   width: 90px;
