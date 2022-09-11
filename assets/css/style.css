@@ -162,25 +162,30 @@ body {
   padding: 30px 15px;
   color: #F2F2F2;
 }
-.home-all-top .home-right .after-slideshow:hover .prev {
+.home-all-top .home-right:hover .prev {
   background-image: linear-gradient(to right, gray, white);
 }
-.home-all-top .home-right .after-slideshow:hover .next {
+.home-all-top .home-right:hover .next {
   background-image: linear-gradient(to left, gray, white);
 }
 .home-all-top .home-left {
   background-color: white;
   border: 1px solid rgb(211, 211, 211);
   border-radius: 5px;
-  width: 90px;
+  width: auto;
 }
 .home-all-top .home-left ul {
   list-style: none;
 }
+.home-all-top .home-left ul li .categorie-item {
+  width: 90px;
+  text-align: center;
+}
 .home-all-top .home-left ul li .categorie-item .item {
-  padding: 15px;
+  padding: 10px 15px;
 }
 .home-all-top .home-left ul li .categorie-item .item-top {
+  margin-left: 5px;
   width: 44px;
   height: 44px;
   box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.25);
@@ -197,9 +202,11 @@ body {
   height: 24px !important;
 }
 .home-all-top .home-left ul li .categorie-item .item-bottom {
+  width: 100%;
   padding-top: 5px;
   color: gray;
-  font-size: 12px;
+  font-size: 10px;
+  line-height: 15px;
 }
 .home-all-top .home-left ul:hover {
   cursor: pointer;
