@@ -1,3 +1,26 @@
+
+//It is for Categorie 
+
+document.querySelector(".category").addEventListener('click',()=>{
+  console.log("s");
+
+  if(document.querySelector(".categorymodal").style.display == "none" || document.querySelector(".categorymodal").style.display == ""){
+
+    console.log('s')
+    document.querySelector(".categorymodal").style.display = "block";
+
+  }else{
+    console.log("k");
+    document.querySelector(".categorymodal").style.display = "none";
+
+  }
+
+});
+
+
+
+//It is for Slideshow At home  page
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -24,4 +47,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+
 

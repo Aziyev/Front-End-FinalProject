@@ -183,10 +183,12 @@ body{
     }
     .home-left{
         background-color:#FFFFFFFF;
-        
         border: 1px solid rgb(211, 211, 211);
         border-radius:5px;
         width: auto;
+        height: 585px;
+        position: sticky;
+        top: 0;
         
         ul{
             list-style: none;
@@ -236,7 +238,20 @@ body{
 }
 
 
+.home-all-mehsullar{
+    margin-top: 30px;
+    .mehsullar{
+        display: flex;
+        justify-content: space-between;
+        .mehsul{
+            padding: 5px;
+            border:1px solid black;
+            .mehsul-box{
 
+            }
+        }
+    }
+}
 
 
 

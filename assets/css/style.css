@@ -173,6 +173,10 @@ body {
   border: 1px solid rgb(211, 211, 211);
   border-radius: 5px;
   width: auto;
+  height: 585px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 .home-all-top .home-left ul {
   list-style: none;
@@ -212,6 +216,17 @@ body {
   cursor: pointer;
 }
 
+.home-all-mehsullar {
+  margin-top: 30px;
+}
+.home-all-mehsullar .mehsullar {
+  display: flex;
+  justify-content: space-between;
+}
+.home-all-mehsullar .mehsullar .mehsul {
+  padding: 5px;
+  border: 1px solid black;
+}
 footer {
   background-color: #383E42;
 }
