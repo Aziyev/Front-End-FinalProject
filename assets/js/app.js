@@ -1,5 +1,6 @@
 
-//It is for Categorie 
+
+4//It is for Categorie 
 
 document.querySelector(".category").addEventListener('click',()=>{
   console.log("s");

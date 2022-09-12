@@ -240,14 +240,128 @@ body{
 
 .home-all-mehsullar{
     margin-top: 30px;
+    h2{
+        font-size: 22px;
+        font-weight: 500;
+    }
     .mehsullar{
         display: flex;
         justify-content: space-between;
+        
         .mehsul{
-            padding: 5px;
-            border:1px solid black;
+            margin:5px;
+            
             .mehsul-box{
+                background-color:white;
+                border-radius:5px;
+                width: 100%;
+                padding: 5px;
+                border:1px solid rgb(194, 194, 194);
 
+                .mehsul-box-img{
+                    position: relative;
+                    padding: 20px 40px 0px 40px;
+                    width: 100%;
+                    border-bottom: 1px solid rgb(224, 224, 224);
+                    img{
+                        width: 100%;
+                    }
+                    .card-cash{
+                        position: absolute;
+                        .card-cash-img{
+                            img{
+                                width: 100px;
+                            }
+                        position: relative;
+                        top: -35px;
+                        left: -45px;
+
+                        }
+                        .card-cash-discount{
+                            top: -15px;
+                            left: -15px;
+                            width: 50px;
+                            font-size: 12px;
+                            font-weight: 600;
+                            color:white;
+                            vertical-align: baseline;
+                            position: absolute;
+                        }
+                    }
+                    .card-favori{
+                        img{
+                            width: 30px;
+                            position: absolute;
+                            right: 10px;
+                            top: 10px;
+                        }
+                    }
+                }
+                .mehsul-box-bottom{
+                    padding: 5px;
+                    .mehsul-categorie-name{
+                        padding-left: 15px;
+                        li{
+                            font-size: 12px;
+                            color:gray;
+                        }
+                        h3{
+                            font-size: 12px;
+                        }
+                    }
+                    .mehsul-price-month{
+                        display: flex;
+                        justify-content:space-between;
+                        padding-top: 40px;
+                        
+                        
+                        .mehsul-price{
+                            position: left;
+                            padding: 10px;
+                            display: flex;
+                            font-size: 18px;
+                            color:#8DC63F;
+                            font-weight: 600;
+                            img{
+                                width: 15px;
+                            }
+                            p{
+                                padding-right: 3px;
+                                padding-top: 9px;
+                            }
+                        }
+                        .mehsul-month{
+                            background-color:#F1F5FF;
+                            border-radius:10px;
+                            padding: 5px 20px;
+                            color: #9F82F2;
+                            .month-price{
+                                display: flex;
+                                
+                            }
+                        }
+                    }
+                    .mehsul-buynow-basket{
+                        padding-top: 20px;
+                        display: flex;
+                        justify-content: space-between;
+                        .buynow{
+                            background-color: #8DC63F;
+                            color: white;
+                            padding: 5px 70px;
+                            border-radius:10px;
+                        }
+                        .buynow:hover{
+                            background-color: #afd679;
+                            
+                        }
+                        .gotobasket{
+                            border-radius:10px;
+                            padding: 5px 10px;
+                            border: 1px solid #8DC63F;
+                        }
+                    }
+                }
             }
         }
     }
@@ -255,11 +369,78 @@ body{
 
 
 
+.partnyorlar{
+    margin: 30px 0px;
+    width: 100%;
+    .partnyorlar-box{
+        border-radius:10px;
+        h2{
+            margin-bottom: 20px;
+        }
+        display: flex;
+        border: 1px solid gray;
+        background-color: white;
+        justify-content: space-between;
+        padding: 20px 10px;
+        width: 100%;
+        
+        a{
+            padding: 0px 15px;
+        }
+        img{
+            width: 112px;
+            height: 58px;
+        }
+    }
+}
+
+.korporativ-satishlar{
+    margin: 30px;
+    .krp-top{
+        p{
+            padding: 20px 0px;
+        }
+    }
+    .krp-body{
+        li{
+            list-style: none;
+            padding: 20px 0px;
+            h2{
+                font-weight: 500;
+                padding-bottom: 20px;
+            }
+        }
+    }
+    .krp-bottom{
+        .pred{
+            color: red;
+            font-size: 22px;
+            margin-bottom: 40px;
+        }
+
+        
+    }
+}
 
 
 
 
+.magazalarimiz{
+    margin: 30px 0px;
+    .magazalarimiz-top{
+        h2{
+            padding: 20px 0px;
+        }
+    }
+    .magazalarimiz-body{
+        .magazalirimiz-box{
+            border: 1px solid gray;
+        }
+    }
+    .magazalarimiz-bottom{
 
+    }
+}
 
 
 
