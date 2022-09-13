@@ -367,8 +367,6 @@ body{
     }
 }
 
-
-
 .partnyorlar{
     margin: 30px 0px;
     width: 100%;
@@ -422,27 +420,296 @@ body{
     }
 }
 
+.markets{
 
 
-
-.magazalarimiz{
-    margin: 30px 0px;
-    .magazalarimiz-top{
-        h2{
-            padding: 20px 0px;
+    .markets-body{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        .markets-box{
+            padding: 5px 90px 5px 10px;
+            
+            border:1px solid rgb(194, 194, 194);
+            border-radius:10px;
         }
     }
-    .magazalarimiz-body{
-        .magazalirimiz-box{
-            border: 1px solid gray;
-        }
-    }
-    .magazalarimiz-bottom{
+}
 
+.blog-box{
+    margin-bottom: 300px;
+position: relative;
+    .bloq-box-1{
+        width: 100%;
+        
+        img{
+            width: 100%;
+        }
+        
+    }
+    .bloq-box-text{
+        position: absolute;
+        top: 35px;
+        left: 40px;
+        font-size: 25px;
+        color: white;
+    }
+}
+
+.jobapply{
+    h2{
+        font-size: 20px;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+    }
+    .jobapply-text{
+        padding: 20px 40px;
+        background-color: white;
+        border: 1px solid rgb(243, 243, 243);
+        border-radius:5px;
+        .jobapply-text-box{
+            padding-bottom: 20px;
+            h3{
+                font-size: 16px;
+                padding-bottom: 20px;
+            }
+            li{
+                padding: 3px 0px;
+                font-size: 14px;
+                list-style-type:square ;
+            }
+        }
     }
 }
 
 
+.log-reg{
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .log-reg-box{
+        background-color: white;
+        border: 1px solid rgb(218, 218, 218);
+        .log-reg-top{
+            display: flex;
+            .log-top{
+                padding: 10px 70px;
+                border-bottom:1px solid green;
+                a{
+                    color: green;
+                    text-decoration: none;
+                }
+            }
+            .reg-top{
+                padding: 10px 30px;
+                border-bottom:1px solid gray;
+                a{
+                    color: gray;
+    
+                    text-decoration: none;
+                }
+            }
+        }
+        .log-body{
+           padding: 30px 40px;
+           div{
+            
+            label{
+                font-size: 14px;
+                color: gray;
+            }
+            input{
+                background-color: #F2F2F2;
+                border-radius:5px ;
+                border: 1px solid rgb(212, 212, 212);
+                width: 100%;
+                height: 40px;
+            }
+           }
+           .log-body-in-btn{
+            padding-top: 20px;
+            
+            a{
+            
+                text-align: center;
+                text-decoration: none;
+                color: white;
+                .anotherdiv{
+                    background-color: #8DC63F;
+                    border-radius:5px;
+                    padding: 10px 0px;
+                }
+               }
+           }
+        }
+        .reg-body{
+            display: none;
+            padding: 20px;
+            div{
+             padding: 10px 20px;
+             label{
+                 font-size: 14px;
+                 color: gray;
+             }
+             input{
+                 background-color: #F2F2F2;
+                 border-radius:5px ;
+                 border: 1px solid rgb(212, 212, 212);
+                 width: 100%;
+                 height: 40px;
+             }
+            }
+         }
+    }
+
+}
+
+.products-all{
+    .products-all-top{
+        display: flex;
+        justify-content: end;
+        form{
+            select{
+                padding: 10px 20px;
+                color:gray;
+            }
+        }
+    }
+    .products-all-body{
+        padding-top: 30px;
+        display: flex;
+        .left-choosing{
+            .choosing-box{
+                    border-radius: 5px;
+                    border: 1px solid gray;
+                    background-color: white;
+                    padding: 30px;
+                .choosing-box-top{
+                    border-bottom:1px solid gray;
+                    p{
+                        padding-bottom: 20px;
+                    }
+                    input{
+                        border-radius: 5px;
+                        border: 1px solid gray;
+                        width: 100%;
+                        height: 40px;
+                        padding: 0px 20px;
+                        color: gray;
+                        
+                    }
+                    padding-bottom: 30px;
+    
+                }
+                .choosing-box-filter{
+                    padding-top: 20px;
+                    li{
+                        padding: 3px 0px;
+                        list-style-type: none;
+                        span{
+                            padding-left: 3px;
+                        }
+                    }
+                }
+            }
+            .filter-sort{
+                margin-top: 20px;
+                border-radius: 5px;
+                    border: 1px solid gray;
+                    background-color: white;
+                    padding: 30px;
+                .filter-price{
+                    .fp-top{
+                        padding: 10px 0px;
+                    }
+                    .fp-bottom{
+                        display: flex;
+                        justify-content: space-between;
+                        .min-price{
+                            width: 70px;
+                            input{
+                                border-radius: 5px;
+                                border: 1px solid gray;
+                                width: 100%;
+                                padding: 5px;
+                            }
+                        }
+                        .max-price{
+                            width: 70px;
+                            input{
+                                border-radius: 5px;
+                                border: 1px solid gray;
+                                width: 100%;
+                                padding: 5px;
+                            }
+                        }
+                        .price-ready-btn{
+                            border-radius: 5px;
+                            border: 1px solid gray;
+                            padding: 0px 5px;
+                            background-color: #a8a8a8;
+                        }
+                    }
+                }
+            }
+        }
+        .right-products{
+            margin-left: 40px;
+        }
+    }
+
+}
+
+.product-box{
+    .product{
+        .product-left{
+            background-color: white;
+            border-radius: 5px;
+            .pl-top{
+                display: flex;
+                width: 100%;
+                
+                padding: 20px;
+                .pl-img{
+                    padding: 20px;
+                    border: 1px solid gray;
+                    border-radius: 5px;
+                    max-width: 50%;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .pl-inf{
+                    padding: 0px 20px;
+
+                    .stokinf{
+                        .stokinf-btn{
+                            margin-bottom: 100px;
+                            display: flex;
+                            justify-content: space-between;
+                            .stokda-var{
+                                margin-right: 10px;
+                                background-color: black;
+                                color: white;
+                                padding: 5px 40px;
+                                border-radius: 5px;
+                            }
+                            .catdirilma{
+                                border-radius: 5px;
+                                background-color: rgb(136, 136, 136);
+                                color: white;
+                                padding: 5px 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 footer{
     background-color:#383E42;
@@ -534,3 +801,4 @@ footer{
     }
 
 }
+

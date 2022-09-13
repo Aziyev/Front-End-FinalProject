@@ -1,7 +1,4 @@
 
-
-4//It is for Categorie 
-
 document.querySelector(".category").addEventListener('click',()=>{
   console.log("s");
 
@@ -17,6 +14,8 @@ document.querySelector(".category").addEventListener('click',()=>{
   }
 
 });
+
+
 
 
 
@@ -48,6 +47,8 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+
 
 
 
