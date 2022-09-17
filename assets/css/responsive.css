@@ -177,14 +177,42 @@
   display: none;
 }
  */
- .search-box button{
+ header{ 
   display: none;
  }
- header .h-top{
+ footer{
   display: none;
  }
- header .h-bottom-color{
+ .home-left{
   display: none;
  }
+ .home-all-top{
+  display: block;
+  flex-wrap: wrap;
+}
+.slideshow-container{
+  width: 100%;
+}
+.partnyorlar {
+  overflow:scroll;
+  background-color: none;
+  border-radius: 10px;
+}
+.partnyorlar .partnyorlar-box{
+  background-color: #F2F2F2;
+  border:none;
+}
+.mobile-header-section{
+  display: block !important;
+}
+.container{
+  padding: 0px;
+}
+
+.home-right{
+  width: 100%;
+  margin-left: 0px !important;
+}
+
 }
 

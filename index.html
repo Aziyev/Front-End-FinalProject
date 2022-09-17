@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/components.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/responsivemobile.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>World Telecom</title>
@@ -105,9 +106,9 @@
         </div>
     </header>
 
-   <!--  <section class="h234">
+    <section class="mobile-header-section" id="myHeader">
 
-        <div class="mobile-header1 col-lg-12 col-md-12 col-sm-12">
+        <div class="mobile-header1">
             <div class="mhleft">
                 <img src="./assets/img/header-icons/logoblack.svg" alt="">
             </div>
@@ -119,19 +120,35 @@
         <div id="myNav" class="overlay">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="overlay-content">
+            <div class="overlay-top">
+                <a href=""><img width="120px" height="34px" src="./assets/img/header-icons/logowhite.svg" alt=""></a>
+            </div>
+            <div class="mh-overlay-content">
+                <div class="item-top">
+                    <img width="30px" height="30px" src="./assets/img/categorie/categorie1.svg" alt="">
+                </div>
+                <div class="item-bottom">
+                    <span class="Categories_text__g3eyc">Telefon və  planşetlər</span>
+                </div>
+            </div>
+
             <a href="#">About</a>
             <a href="#">Services</a>
             <a href="#">Clients</a>
             <a href="#">Contact</a>
             </div>
         </div>
-        
-        <span onclick="openNav()"><img src="./assets/img/header-icons/barwhite.svg" alt=""></span>
-
+        <span onclick="openNav()"><img class="mobilebar" src="./assets/img/header-icons/barwhite.svg" alt=""></span>
+        <a href=""><img class="mhlogo" src="./assets/img/header-icons/logowhite.svg" alt=""></a>
+        <div class="mhicons">
+            <img src="./assets/img/header-icons/login1.svg" alt="">
+            <img src="./assets/img/header-icons/lovewhite.svg" alt="">
+            <img src="./assets/img/header-icons/basketwhite.svg" alt="">
+        </div>
     </div>
     </section>
 
- -->
+
 
 
     <section>
@@ -447,7 +464,7 @@
                                 <h2>Ən çox satılanlar</h2>
                                 <div class="mehsullar col-lg-12">
                                     
-                                    <div class="mehsul col-lg-3">
+                                    <div class="mehsul col-lg-3 col-md-3 col-sm-6">
                                         <a class="mehsulunlinki" href="./mehsul.html">
                                             <div class="mehsul-box">
                                                 <div class="mehsul-box-img">
@@ -462,7 +479,7 @@
                                                     <div class="card-favori" >
                                                         <img src="./assets/img/svgexport-22.svg" alt="" class="dddddd" onclick="chBackcolor('red')">
                                                     </div>
-                                                    <img src="./assets/img/productjpg/apple/13pro.jpg" alt="mehsulun sekili">
+                                                    <img src="./assets/img/productjpg/13pro.jpg" alt="mehsulun sekili">
                                                 </div>
                                                 <div class="mehsul-box-bottom">
                                                     <div class="mehsul-categorie-name">
@@ -496,7 +513,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="mehsul col-lg-3">
+                                    <div class="mehsul col-lg-3 col-md-3 col-sm-6">
                                         <a class="mehsulunlinki" href="./mehsul.html">
                                             <div class="mehsul-box">
                                                 <div class="mehsul-box-img">
@@ -511,7 +528,7 @@
                                                     <div class="card-favori" >
                                                         <img src="./assets/img/svgexport-22.svg" alt="" class="dddddd" onclick="chBackcolor('red')">
                                                     </div>
-                                                    <img src="./assets/img/productjpg/apple/13pro.jpg" alt="mehsulun sekili">
+                                                    <img src="./assets/img/productjpg/13pro.jpg" alt="mehsulun sekili">
                                                 </div>
                                                 <div class="mehsul-box-bottom">
                                                     <div class="mehsul-categorie-name">
@@ -545,154 +562,119 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="mehsul col-lg-3">
-                                        <div class="mehsul-box">
-                                            <div class="mehsul-box-img">
-                                                <div class="card-cash">
-                                                    <div class="card-cash-img">
-                                                    <img src="./assets/img/redpecat.svg" alt="">
-                                                    </div>    
-                                                    <div class="card-cash-discount">
-                                                        <p>Nağd alışda <span>100</span> endirim</p>
-                                                    </div>                          
-                                                </div>
-                                                <div class="card-favori" >
-                                                    <img src="./assets/img/svgexport-22.svg" alt="" class="dddddd" onclick="chBackcolor('red')">
-                                                </div>
-                                                <img src="./assets/img/productjpg/apple/13pro.jpg" alt="mehsulun sekili">
-                                            </div>
-                                            <div class="mehsul-box-bottom">
-                                                <div class="mehsul-categorie-name">
-                                                    <ul>
-                                                        <li>TV, Audio və Əyləncə</li>
-                                                    </ul>
-                                                    <h3>Porodo LifeStyle Electric Urban Scooter</h3>
-                                                </div>
-                                                <div class="mehsul-price-month">
-                                                    <div class="mehsul-price">
-                                                        <p>790</p>
-                                                        <img src="./assets/img/manatgreen.svg" alt="">
+                                    <div class="mehsul col-lg-3 col-md-3 col-sm-6">
+                                        <a class="mehsulunlinki" href="./mehsul.html">
+                                            <div class="mehsul-box">
+                                                <div class="mehsul-box-img">
+                                                    <div class="card-cash">
+                                                        <div class="card-cash-img">
+                                                        <img src="./assets/img/redpecat.svg" alt="">
+                                                        </div>    
+                                                        <div class="card-cash-discount">
+                                                            <p>Nağd alışda <span>100</span> endirim</p>
+                                                        </div>                          
                                                     </div>
-                                                    <div class="mehsul-month">
-                                                        <p>12 ay</p>
-                                                        <div class="month-price">
-                                                            <p>65.83</p>
-                                                            <img src="./assets/img/manatpurple.svg" alt="">
+                                                    <div class="card-favori" >
+                                                        <img src="./assets/img/svgexport-22.svg" alt="" class="dddddd" onclick="chBackcolor('red')">
+                                                    </div>
+                                                    <img src="./assets/img/productjpg/13pro.jpg" alt="mehsulun sekili">
+                                                </div>
+                                                <div class="mehsul-box-bottom">
+                                                    <div class="mehsul-categorie-name">
+                                                        <ul>
+                                                            <li>TV, Audio və Əyləncə</li>
+                                                        </ul>
+                                                        <h3>Porodo LifeStyle Electric Urban Scooter</h3>
+                                                    </div>
+                                                    <div class="mehsul-price-month">
+                                                        <div class="mehsul-price">
+                                                            <p>790</p>
+                                                            <img src="./assets/img/manatgreen.svg" alt="">
+                                                        </div>
+                                                        <div class="mehsul-month">
+                                                            <p>12 ay</p>
+                                                            <div class="month-price">
+                                                                <p>65.83</p>
+                                                                <img src="./assets/img/manatpurple.svg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mehsul-buynow-basket">
+                                                        <div class="buynow">
+                                                            <p>Indi al</p>
+                                                        </div>
+                                                        <div class="gotobasket">
+                                                            <a href="./sebet.html"><img src="./assets/img/basketgreen.svg" alt=""></a>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="mehsul-buynow-basket">
-                                                    <div class="buynow">
-                                                        <p>Indi al</p>
-                                                    </div>
-                                                    <div class="gotobasket">
-                                                        <a href="./sebet.html"><img src="./assets/img/basketgreen.svg" alt=""></a>
-                                                    </div>
-                                                </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
-                                    <div class="mehsul col-lg-3">
-                                        <div class="mehsul-box">
-                                            <div class="mehsul-box-img">
-                                                <div class="card-cash">
-                                                    <div class="card-cash-img">
-                                                    <img src="./assets/img/redpecat.svg" alt="">
-                                                    </div>    
-                                                    <div class="card-cash-discount">
-                                                        <p>Nağd alışda <span>100</span> endirim</p>
-                                                    </div>                          
-                                                </div>
-                                                <div class="card-favori" >
-                                                    <img src="./assets/img/svgexport-22.svg" alt="" class="dddddd" onclick="chBackcolor('red')">
-                                                </div>
-                                                <img src="./assets/img/productjpg/apple/13pro.jpg" alt="mehsulun sekili">
-                                            </div>
-                                            <div class="mehsul-box-bottom">
-                                                <div class="mehsul-categorie-name">
-                                                    <ul>
-                                                        <li>TV, Audio və Əyləncə</li>
-                                                    </ul>
-                                                    <h3>Porodo LifeStyle Electric Urban Scooter</h3>
-                                                </div>
-                                                <div class="mehsul-price-month">
-                                                    <div class="mehsul-price">
-                                                        <p>790</p>
-                                                        <img src="./assets/img/manatgreen.svg" alt="">
+                                    <div class="mehsul col-lg-3 col-md-3 col-sm-6">
+                                        <a class="mehsulunlinki" href="./mehsul.html">
+                                            <div class="mehsul-box">
+                                                <div class="mehsul-box-img">
+                                                    <div class="card-cash">
+                                                        <div class="card-cash-img">
+                                                        <img src="./assets/img/redpecat.svg" alt="">
+                                                        </div>    
+                                                        <div class="card-cash-discount">
+                                                            <p>Nağd alışda <span>100</span> endirim</p>
+                                                        </div>                          
                                                     </div>
-                                                    <div class="mehsul-month">
-                                                        <p>12 ay</p>
-                                                        <div class="month-price">
-                                                            <p>65.83</p>
-                                                            <img src="./assets/img/manatpurple.svg" alt="">
+                                                    <div class="card-favori" >
+                                                        <img src="./assets/img/svgexport-22.svg" alt="" class="dddddd" onclick="chBackcolor('red')">
+                                                    </div>
+                                                    <img src="./assets/img/productjpg/13pro.jpg" alt="mehsulun sekili">
+                                                </div>
+                                                <div class="mehsul-box-bottom">
+                                                    <div class="mehsul-categorie-name">
+                                                        <ul>
+                                                            <li>TV, Audio və Əyləncə</li>
+                                                        </ul>
+                                                        <h3>Porodo LifeStyle Electric Urban Scooter</h3>
+                                                    </div>
+                                                    <div class="mehsul-price-month">
+                                                        <div class="mehsul-price">
+                                                            <p>790</p>
+                                                            <img src="./assets/img/manatgreen.svg" alt="">
+                                                        </div>
+                                                        <div class="mehsul-month">
+                                                            <p>12 ay</p>
+                                                            <div class="month-price">
+                                                                <p>65.83</p>
+                                                                <img src="./assets/img/manatpurple.svg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mehsul-buynow-basket">
+                                                        <div class="buynow">
+                                                            <p>Indi al</p>
+                                                        </div>
+                                                        <div class="gotobasket">
+                                                            <a href="./sebet.html"><img src="./assets/img/basketgreen.svg" alt=""></a>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="mehsul-buynow-basket">
-                                                    <div class="buynow">
-                                                        <p>Indi al</p>
-                                                    </div>
-                                                    <div class="gotobasket">
-                                                        <a href="./sebet.html"><img src="./assets/img/basketgreen.svg" alt=""></a>
-                                                    </div>
-                                                </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
-                                    <div class="mehsul col-lg-3">
-                                        <div class="mehsul-box">
-                                            <div class="mehsul-box-img">
-                                                <div class="card-cash">
-                                                    <div class="card-cash-img">
-                                                    <img src="./assets/img/redpecat.svg" alt="">
-                                                    </div>    
-                                                    <div class="card-cash-discount">
-                                                        <p>Nağd alışda <span>100</span> endirim</p>
-                                                    </div>                          
-                                                </div>
-                                                <div class="card-favori" >
-                                                    <img src="./assets/img/svgexport-22.svg" alt="" class="dddddd" onclick="chBackcolor('red')">
-                                                </div>
-                                                <img src="./assets/img/productjpg/apple/13pro.jpg" alt="mehsulun sekili">
-                                            </div>
-                                            <div class="mehsul-box-bottom">
-                                                <div class="mehsul-categorie-name">
-                                                    <ul>
-                                                        <li>TV, Audio və Əyləncə</li>
-                                                    </ul>
-                                                    <h3>Porodo LifeStyle Electric Urban Scooter</h3>
-                                                </div>
-                                                <div class="mehsul-price-month">
-                                                    <div class="mehsul-price">
-                                                        <p>790</p>
-                                                        <img src="./assets/img/manatgreen.svg" alt="">
-                                                    </div>
-                                                    <div class="mehsul-month">
-                                                        <p>12 ay</p>
-                                                        <div class="month-price">
-                                                            <p>65.83</p>
-                                                            <img src="./assets/img/manatpurple.svg" alt="">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="mehsul-buynow-basket">
-                                                    <div class="buynow">
-                                                        <p>Indi al</p>
-                                                    </div>
-                                                    <div class="gotobasket">
-                                                        <a href="./sebet.html"><img src="./assets/img/basketgreen.svg" alt=""></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                   
+                                    
+                                    
+                                    
+
+
+
+
                                 </div>
                             </div>
                             
                            
                             
                         </section>
-                        <div class="section">
+                        <div class="section ">
                             <div class="partnyorlar">
                                 <h2>Partnyorlar</h2>
                                 <div class="partnyorlar-box">
@@ -1154,5 +1136,7 @@
         </div>
     </footer>
     <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/responsnew.js"></script>
+
 </body>
 </html>

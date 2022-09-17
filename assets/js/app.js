@@ -57,6 +57,3 @@ function showSlides(n) {
 }
 
 
-
-
-
